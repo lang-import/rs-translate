@@ -1,0 +1,10 @@
+[package]
+name = "rs-translate"
+version = "0.1.0"
+authors = ["Alexander Baryshnikov <dev@baryshnikov.net>"]
+edition = "2018"
+
+[dependencies]
+rouille = "3.0.0"
+clap = "2.33.0"
+redis = "0.10.0"
