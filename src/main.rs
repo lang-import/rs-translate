@@ -75,7 +75,7 @@ fn translate_cached(connection: &redis::Connection, command: &str, engines: &[St
 fn main() {
     let matches = App::new("Translate API")
         .version("1.0")
-        .author("RedDec <owner@reddec.net>")
+        .author("Alexander Baryshnikov <dev@baryshnikov.net>")
         .about("exposes trans-shell to Web")
         .arg(Arg::with_name("binary")
             .short("b")
